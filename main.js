@@ -24,3 +24,10 @@ function limparListaOrdenada() {
     limpaLista();
     atualizarListaOrdenada();
 }
+
+
+function adicionaElementoNaListaOrdenada(texto){
+    const li = document.createElement("li");
+    li.textContent = texto;
+    olItens.appendChild(li);
+}

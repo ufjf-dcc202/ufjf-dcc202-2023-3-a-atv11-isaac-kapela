@@ -1,11 +1,6 @@
 
 
 
-function adicionaElementoNaListaOrdenada(texto){
-    const li = document.createElement("li");
-    li.textContent = texto;
-    olItens.appendChild(li);
-}
 //adiciona os 3 primeiros itens
 atualizarListaOrdenada();
 
