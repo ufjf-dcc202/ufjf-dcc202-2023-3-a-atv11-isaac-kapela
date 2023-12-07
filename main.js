@@ -4,3 +4,11 @@ const btnAdicionar = document.querySelector("#adicionar")
 const btnLimpar = document.querySelector("#limpar")
 const olItens = document.querySelector("#itens")
 
+
+function atualizarListaOrdenada(){
+    const lista = getLista();
+    olItens.innerHTML = " ";
+    for (let i=0;i < lista.length; i++){
+        adicionaElementoNaListaOrdenada(lista[i]);
+    }
+}
