@@ -12,3 +12,10 @@ function atualizarListaOrdenada(){
         adicionaElementoNaListaOrdenada(lista[i]);
     }
 }
+
+function adicionaItemDaEntrada(){
+    const valor = pEntrada.textContent;
+    adicionaNaLista(valor);
+    pEntrada.textContent = " ";
+    atualizarListaOrdenada();
+}

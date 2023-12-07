@@ -1,10 +1,4 @@
 
-function adicionaItemDaEntrada(){
-    const valor = pEntrada.textContent;
-    adicionaNaLista(valor);
-    pEntrada.textContent = " ";
-    atualizarListaOrdenada();
-}
 
 function limparListaOrdenada() {
     limpaLista();
