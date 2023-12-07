@@ -31,3 +31,9 @@ function adicionaElementoNaListaOrdenada(texto){
     li.textContent = texto;
     olItens.appendChild(li);
 }
+
+
+atualizarListaOrdenada();
+
+btnAdicionar.addEventListener('click',adicionaItemDaEntrada)
+btnLimpar.addEventListener('click',limparListaOrdenada)
