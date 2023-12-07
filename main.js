@@ -19,3 +19,8 @@ function adicionaItemDaEntrada(){
     pEntrada.textContent = " ";
     atualizarListaOrdenada();
 }
+
+function limparListaOrdenada() {
+    limpaLista();
+    atualizarListaOrdenada();
+}

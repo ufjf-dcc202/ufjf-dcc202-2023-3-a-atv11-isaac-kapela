@@ -1,9 +1,5 @@
 
 
-function limparListaOrdenada() {
-    limpaLista();
-    atualizarListaOrdenada();
-}
 
 function adicionaElementoNaListaOrdenada(texto){
     const li = document.createElement("li");
